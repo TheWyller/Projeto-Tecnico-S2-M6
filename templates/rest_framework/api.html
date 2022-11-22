@@ -1,0 +1,16 @@
+{% extends "rest_framework/base.html" %} {% block userlinks %}
+<form action="/api/interpreter/">
+  <input
+    style="background-color: #337ab7; width: 150px; border-color: #2e6da4"
+    type="submit"
+    value="List all Transactions"
+  />
+</form>
+<form action="/">
+  <input
+    style="background-color: #337ab7; width: 150px; border-color: #2e6da4"
+    type="submit"
+    value="Upload a file"
+  />
+</form>
+{% endblock %}

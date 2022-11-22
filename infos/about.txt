@@ -1,0 +1,1 @@
+Essa pasta é responsavel em guardar os arquivos recebidos pelos usuários
