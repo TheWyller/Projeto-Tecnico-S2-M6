@@ -94,10 +94,11 @@ Deve-se rodar o seguinte comando:
     3201903010000014200096206760174753****3153153453JOÃO MACEDO   BAR DO JOÃO
 - Cada transação deve estar em uma linha
 ---   
-### Para visualizar todos as informações formatadas deve-se acessar o seguinte link:
+### Para visualizar todos as informações formatadas deve-se acessar o seguinte link ou clicar no botão superior direito "List all Transactions" :
 ```shell
   localhost:8000/api/interpreter/
 ```
+  
 # Testes:
 
 ## Testes Unitários e de integração em desenvolvimento
