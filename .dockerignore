@@ -2,3 +2,5 @@ venv
 .git
 .vscode
 __pycache__
+CNAB.json
+CNAB.txt
