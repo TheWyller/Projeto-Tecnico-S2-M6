@@ -98,7 +98,9 @@ Deve-se rodar o seguinte comando:
 ```shell
   localhost:8000/api/interpreter/
 ```
-  
+### Para fazer o filtro:
+  Basta clicar no botão "List all Transactions", nessa página existe um botão "filter" onde será possível filtrar pelo nome da loja
+
 # Testes:
 
 ## Testes Unitários e de integração em desenvolvimento
