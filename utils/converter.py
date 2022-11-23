@@ -2,6 +2,7 @@ import json
 
 
 def converter_CNAB():
+
     f = open("infos/CNAB.txt", "r")
     f.seek(0)
     old_list = f.readlines()

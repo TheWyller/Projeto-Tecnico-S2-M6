@@ -4,6 +4,6 @@ from .serializers import HomeSerializer
 from .models import Home
 
 
-class HomeView(generics.ListCreateAPIView):
+class HomeView(generics.CreateAPIView):
     serializer_class = HomeSerializer
     queryset = Home.objects.all()
