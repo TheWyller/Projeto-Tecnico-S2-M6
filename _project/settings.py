@@ -94,12 +94,12 @@ DATABASES = {
         "PASSWORD": os.getenv("POSTGRES_PASSWORD"),
 
         # Local Host
-        "HOST": "127.0.0.1",
-        "PORT": 5432,
+        # "HOST": "127.0.0.1",
+        # "PORT": 5432,
 
         # Docker Compose
-        # "HOST": "db",
-        # "PORT": 5432,
+        "HOST": "db",
+        "PORT": 5432,
     },
     'SQLITE': {
         'ENGINE': 'django.db.backends.sqlite3',
